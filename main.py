@@ -8,7 +8,6 @@ import pprint
 company_id = os.getenv('COMPANY_ID')
 client_id = os.getenv('CLIENT_ID')
 client_secret = os.getenv('CLIENT_SECRET')
-client_secret = "3I0PRjkiRJoq1cJ5b0hQYwKunqz5Lun5ymdP065P"
 redirect_uri = "https://developer.intuit.com/v2/OAuth2Playground/RedirectUrl"
 sandbox_base_url = f'https://sandbox-quickbooks.api.intuit.com/v3/company/{company_id}'
 auth_url = 'https://appcenter.intuit.com/connect/oauth2'
